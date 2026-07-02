@@ -108,9 +108,9 @@ cafe-app/
 
 ### 2단계: 관리자 - 메뉴 관리 시스템
 
-- [ ] `admin/menus/list.html` — 메뉴 목록
-- [ ] `admin/menus/list.css`
-- [ ] `admin/menus/list.js`
+- [x] `admin/menus/list.html` — 메뉴 목록
+- [x] `admin/menus/list.css`
+- [x] `admin/menus/list.js`
 - [ ] `admin/menus/detail.html` — 메뉴 상세
 - [ ] `admin/menus/detail.css`
 - [ ] `admin/menus/detail.js`
