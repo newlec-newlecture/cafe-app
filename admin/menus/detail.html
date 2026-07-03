@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>관리자 - 메뉴 상세</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="detail.css">
+</head>
+<body>
+  <nav class="admin-nav">
+    <a href="../index.html">📊 대시보드</a>
+    <a href="list.html">메뉴 관리</a>
+    <a href="../orders/list.html">주문 관리</a>
+  </nav>
+
+  <main class="container">
+    <header class="page-header">
+      <h1>메뉴 상세</h1>
+      <div class="header-actions">
+        <a href="edit.html?id=MENU_ID" class="btn btn-primary" id="edit-btn">수정</a>
+        <a href="list.html" class="btn btn-outline">← 목록으로</a>
+      </div>
+    </header>
+
+    <div class="detail-card" id="menu-detail">
+      <!-- JS로 렌더링 -->
+    </div>
+  </main>
+
+  <script src="../../js/data.js"></script>
+  <script src="../../js/utils.js"></script>
+  <script src="list.js"></script>
+  <script src="detail.js"></script>
+</body>
+</html>

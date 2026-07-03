@@ -1,0 +1,37 @@
+/* ===== 상세 카드 ===== */
+.detail-card {
+  background: var(--bg-card);
+  border-radius: var(--border-radius);
+  padding: var(--sp-xl);
+  box-shadow: var(--shadow-md);
+  max-width: 600px;
+}
+
+.detail-card h2 {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--sp-md);
+  color: var(--color-primary);
+}
+
+.detail-row {
+  display: flex;
+  margin-bottom: var(--sp-md);
+  font-size: var(--font-size-base);
+}
+
+.detail-label {
+  width: 120px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.detail-value {
+  flex: 1;
+  color: var(--text-primary);
+}
+
+/* ===== 헤더 액션 ===== */
+.header-actions {
+  display: flex;
+  gap: var(--sp-sm);
+}
